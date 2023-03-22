@@ -1,3 +1,6 @@
+#ifndef LED_H
+#define LED_H
+
 class Led {
 public:
     Led(int interval= 1000, int led= 13);
@@ -8,3 +11,5 @@ private:
     int time;
     int ledBuiltIn;
 };
+
+#endif
