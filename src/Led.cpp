@@ -1,10 +1,13 @@
 #include <Arduino.h>
 #include <Led.h>
 
-Led::Led(int interval, int pin): time(interval), ledBuiltIn(pin) {}
+Led::Led(int interval, int pin): time(interval), ledBuiltIn(pin) {} // constructor with initialization list
 
-void Led::setInterval(int interval) {
+bool Led::setInterval(int interval) {
+    if(interval<= 0)
+        return true;
     time= interval;
+    return false;
 }
 
 void Led::blink() {
