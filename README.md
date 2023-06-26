@@ -10,7 +10,7 @@
 - [General Information](#general-information)
 - [Technologies Used](#technologies-used)
 - [Features](#features)
-- [Setup](#setup)
+- [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
 - [Contact](#contact)
@@ -32,9 +32,13 @@ The code is implemented using object-oriented programming techniques and serves 
 
 - Blinks the built-in LED on the Arduino board.
 
-## Setup
+## Installation
 
-To set up the project, you will need an Arduino-compatible board such as Arduino UNO, Arduino Nano, or ESP32.
+1. Make sure you have the Arduino IDE or PlatformIO IDE installed on your computer.
+2. Connect your Arduino-compatible board (e.g., Arduino UNO, Arduino Nano, ESP32) to your computer.
+3. Clone this GitHub repository to your local machine using `git clone https://github.com/Niewiaro/Blinking-LED_BUILTIN-OOP.git`
+4. Open the project in your preferred IDE.
+5. Compile and upload the code to your Arduino board.
 
 ## Usage
 
